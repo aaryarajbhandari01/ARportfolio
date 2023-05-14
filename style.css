@@ -1,0 +1,515 @@
+
+
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+a {
+    color: #421844;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #912c6a
+        /*#35e888*/
+    ;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/*LINK EDIT*/
+
+/* display background color black on navbar scroll */
+.navbar {
+    background-color: rgba(0, 0, 0);
+    
+    
+}
+
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover,
+.navbar a:visited {
+    color: #fff
+}
+
+
+.navbar a:active {
+    color: #912c6a;
+}
+
+
+.navbar a:focus {
+    color: #912c6a;
+}
+
+.home {
+    height: 100vh;
+    background: url("images/totorobusbg.jpg") no-repeat fixed bottom right;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* text css above home image*/
+
+.home-text {
+    text-align: left;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+#home h1 a,
+#home h1 a:hover {
+    color: #fff;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin: 0;
+    margin-left: 10%;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+#home h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 10%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#home h2 span {
+    color: #fff;
+    border-bottom: 2px solid #912c6a;
+    padding-bottom: 6px;
+}
+
+
+
+/* SOCIAL LINKS*/
+
+#home .social-links {
+
+    margin-left: 10%;
+
+}
+
+
+#home .social-links a {
+    font-size: 20px;
+    line-height: 2;
+    margin-right: 2%;
+    color: #fff;
+}
+
+
+#home .social-links a:hover {
+    color: #421844;
+}
+
+@media (max-width: 992px) {
+    #home h1 {
+        font-size: 36px;
+    }
+
+    #home h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    #home .social-links a {
+        font-size: 13px;
+    }
+}
+
+/*SECTION TITLE*/
+
+
+
+.section-title h5 {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #421844;
+}
+
+
+
+/* ABOUT SECTION */
+
+ 
+.about {
+    /*height: 100vh;
+   background: url("images/totorobusbg.jpg") no-repeat fixed bottom right;
+    background-size: cover;
+    position: relative;*/
+    background-color: #f2e5d7;
+    
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    
+    
+}
+
+
+#about-description i {
+   /* color: #4e1538;  #912c6a*/
+   font-weight: 450;
+    font-size: 18px;
+    color:#3a363f;
+        
+        border-bottom: 2px solid #601b46;
+       
+        
+    
+}
+
+#about-text {
+    
+    color:#343039;
+    font-size: 18px;
+}
+
+
+
+#about h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #601b46;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+#about ul li::before {
+    content: "\25C6"; /* css geometric unicode*/
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    
+    width: 2em;
+    color: #912c6a;
+    
+}
+
+#about ul li strong{
+    
+    color:/*#343039;*/ rgba(70, 64, 78, 0.984);
+    font-size: 16px;
+}
+
+#about ul li span{
+    font-size: 16px;
+}
+
+#about strong {
+    margin-right: 10px;
+}
+
+.imageAboutPage {
+    border-radius: 10%;
+    box-shadow: 6px 13px 23px -5px rgb(0 0 0 / 46%);
+    margin-top: 10%;
+    width: 100%;
+    
+    
+}
+
+.skills-box{
+    display:flex;
+    align-items: center;
+    
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0.188em 1.55em #d8ccc0;
+
+}
+
+
+
+.skills-box i{
+    content: "\F76B";
+    padding-right: 15px;
+    text-align: center;
+}
+
+/* Portfolio - Creation Section */
+
+
+
+.portfolio{
+      
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+
+    background-color: #f9f4f1;
+}
+
+.portfolio-container{
+    margin: 10px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+align-items: center;
+display: flex;
+flex-direction: column;
+    width: auto;
+    height:auto;
+    
+}
+
+.portfolio-box{
+    margin-top: 10px;
+   
+    
+    margin-bottom: 40px;
+    align-items: center;
+    width: 70%;
+    height:400px;
+   
+    background-color: white;
+    display:flex;
+}
+
+.portfolio-box .h4{
+    color: #912c6a;
+}
+
+.left-half {
+    width: 70%;
+    height:350px;
+    flex: 1;
+    padding: 20px;
+    padding-left: 0px;
+
+    display: flex;
+  flex-direction: column;
+  }
+
+  
+
+.left-half .title{
+  
+    padding-left: 30px;
+height: 15%;
+justify-content: baseline;
+align-items: center;
+border-left: 10px solid black;
+
+}
+
+
+.left-half .title h5{
+    color: #3e1c69;
+    
+    font-weight: 500;
+}
+
+.left-half .title p{
+    font-size: small;
+    font-weight: 500;
+
+}
+
+
+.left-half .text{
+    padding: 30px;
+    font-size: medium;
+    align-items: center;
+
+}
+  
+.right-half {
+    flex: 1;
+    width: 30%;
+    height:400px;
+
+    
+  }
+
+.imageCreation{
+    
+       
+       /* box-shadow: 6px 13px 23px -5px rgb(0 0 0 / 46%);*/
+       
+        width: 100%;
+        height: 100%;
+
+        
+        
+    
+}
+
+/*RESUME SECTION*/
+
+.resume{
+    
+
+padding-top: 6rem;
+padding-bottom: 6rem;
+    
+}
+
+h4{
+    color: #592344;
+}
+
+.resume-container{
+    margin: 10px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+display: flex;
+flex-direction: column;
+    width: auto;
+    height:auto;
+    
+}
+
+.resume-box{
+    width: 40%;
+    align-items: center;
+    padding: 20px;
+padding-top: 0px;
+padding-bottom: 0px;
+    display:flex;
+}
+
+
+
+.education {
+    align-items: center;
+
+    flex: 1;
+    padding-top: 0;
+    padding-bottom: 0;
+
+  }
+
+
+.resume-text{
+    color: #3a363f;
+}
+
+/*contact me section*/
+.current-date{
+    padding-left: 75px;
+    color: #a09c9c;
+}
+.contact{
+    
+    background: url("images/contactbg.jpg")  ;
+    background-size: contain;
+     
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    
+}
+
+.contact-container {
+       box-shadow: 6px 13px 23px -5px rgb(0 0 0 / 46%);
+       margin: 50px;
+       margin-left: 80px;
+       border-radius: 1em;
+ padding: 40px;
+align-items: center;
+display: flex;
+flex-direction: column;
+width: 600px;
+height: 500px;}
+
+.contact-text{
+    
+
+            font-family:'Times New Roman', Times, serif;
+            color:rgba(161, 128, 73, 0.932);
+    
+        
+}
+
+.form-text{
+    text-align: left;
+      
+}
+
+form{
+    text-align: center;
+}
+ 
+label {
+    width: 100px;
+   text-align: left;
+
+    margin-bottom: 10px;
+}
+input{
+   text-align: left;
+}
+.form-text{
+    margin: 10px;
+}
+.form-button{
+    border-radius: 3em;
+    border: none;
+
+}
+ button{
+    align-items: center;
+    background-color:  #706961;
+    
+   color: #ada298;
+
+}
